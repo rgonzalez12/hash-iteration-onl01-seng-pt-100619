@@ -12,9 +12,6 @@ end
 
 def age_appropriate_birthday(birthday_kids)
 
- passengers.each do |suite, name|
-  if suite == :suite_a && name.start_with?("A")
-    winner = name
-  end
+ p
 end
 winner
