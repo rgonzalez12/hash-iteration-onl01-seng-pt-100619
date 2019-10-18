@@ -10,5 +10,11 @@ def happy_birthday(birthday_kids)
   end
 end
 
-def age_appropriate_birthday()
+def age_appropriate_birthday(birthday_kids)
 
+ passengers.each do |suite, name|
+  if suite == :suite_a && name.start_with?("A")
+    winner = name
+  end
+end
+winner
